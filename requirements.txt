@@ -1,0 +1,4 @@
+selenium
+beautifulsoup4
+python-telegram-bot==13.7 # Versão compatível com o código
+webdriver-manager
