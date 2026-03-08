@@ -150,24 +150,24 @@ KEYWORD = os.getenv("KEYWORD", "")
 Preencha com seus dados:
 
 ```python
-TELEGRAM_TOKEN = "TOKEN_DO_SEU_BOT"
-CHAT_ID = "SEU_CHAT_ID"
-KEYWORD = "produto que deseja monitorar"
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "TOKEN_DO_SEU_BOT")
+CHAT_ID = os.getenv("CHAT_ID", "SEU_CHAT_ID")
+KEYWORD = os.getenv("KEYWORD", "produto que deseja monitorar")
 ```
 
 Exemplo:
 
 ```python
-TELEGRAM_TOKEN = "123456789:AAxxxxxxxxxxxxxxxx"
-CHAT_ID = "-1234567890"
-KEYWORD = "ps5"
+TOKEN_DO_SEU_BOT = "123456789:AAxxxxxxxxxxxxxxxx"
+SEU_CHAT_ID = "-1234567890"
+produto que deseja monitorar = "ps5"
 ```
 
 ---
 
 # 8. Rodar o bot
 
-No terminal, dentro da pasta do projeto:
+Salve as alterações, no terminal dentro da pasta do projeto:
 
 ```
 python monitor.py
