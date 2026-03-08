@@ -34,8 +34,7 @@ jobs:
       env:
         TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
         CHAT_ID: ${{ secrets.CHAT_ID }}
-        KEYWORD: "pokemon"
-        SEARCH_URL: "https://www.olx.com.br/games/jogos-de-video-game?q=pokemon&sf=1"
+        SEARCH_URL: "https://www.olx.com.br/brasil?q=${{ secrets.KEYWORD }}&sf=1"
       run: python monitor.py
 
     - name: Commit and push changes
@@ -45,3 +44,4 @@ jobs:
         git add last_ad.txt
         git commit -m "Update last_ad.txt" || echo "No changes to commit"
         git push
+
