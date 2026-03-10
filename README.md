@@ -201,22 +201,20 @@ Envie os arquivos do projeto.
 
 O projeto usa GitHub Actions.
 
-A pasta precisa estar exatamente assim:
+Vá em Actions e depois clique em 'set up a workflow yourself '
+
+Copie o que está no arquivo
 
 ```
+
 .github/workflows/run_bot.yml
-```
-
-Se você recebeu a pasta sem o ponto:
 
 ```
-github/workflows
-```
 
-basta renomear para:
+E cole no arquivo vazio do workflow do github.
 
-```
-.github
+Precione o botão verde 'Commit charges...' e depois no mesmo botão na janela que abriu.
+
 ```
 
 Assim o GitHub reconhecerá automaticamente os **workflows**.
