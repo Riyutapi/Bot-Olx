@@ -106,16 +106,7 @@ Use this token to access the HTTP API:
 
 Agora você precisa descobrir o ID do chat onde o bot irá enviar as mensagens.
 
-### Método simples
-
-1️⃣ Pesquise seu bot no Telegram
-2️⃣ Envie uma mensagem para ele
-
-ou
-
-Adicione o bot em um grupo e envie uma mensagem.
-
-Depois descubra o chat ID, ele fica na url do telegram depois do #.
+Adicione o bot em um grupo. O chat ID fica na url do telegram depois do #.
 
 Se for **grupo**, normalmente começa com:
 
